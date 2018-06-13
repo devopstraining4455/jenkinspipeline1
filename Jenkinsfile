@@ -2,8 +2,7 @@ pipeline {
 
     agent any
     tools {
-        mavenhome 'apache-maven-3.5.0'
-        javahome 'jdk8'
+        maven 'Maven_3.5.0' 
     }
     stages {
         stage('Compile stage') {
